@@ -45,7 +45,7 @@ if 'setuptools' in sys.modules:
             'ipykernel',
             'pytest==5.3.2',
             'pytest-cov',
-            'pytest-tornasync',
+            'pytest-jupyter',
             'pytest-console-scripts',
             'strict-rfc3339',
             'wheel',
