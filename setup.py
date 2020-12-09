@@ -58,13 +58,8 @@ if 'setuptools' in sys.modules:
         'jsonschema>=3.0.1',
         'packaging',
         'requests',
-        'jupyter_server~=1.0.1',
-    ],
-    setup_args['entry_points'] = {
-        'pytest11': [
-            'pytest_jupyterlab_server = jupyterlab_server.pytest_plugin'
-        ],
-    }
+        'jupyter_server~=1.0.9',
+    ]
 
 if __name__ == '__main__':
     setup(**setup_args)
